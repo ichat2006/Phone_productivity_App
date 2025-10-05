@@ -1,0 +1,45 @@
+name: my_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Add the provider package for state management.
+  provider: ^6.1.5
+
+  # Firebase
+  firebase_core: ^2.31.0
+  firebase_auth: ^4.19.0
+  cloud_firestore: ^4.17.3
+
+  shared_preferences: ^2.3.2
+
+  app_usage: ^4.0.1
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add a custom font, add a fonts section here,
+  # and a "fonts" folder to the root of your project.
+  # For example:
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: fonts/Inter-Regular.ttf
+  #       - asset: fonts/Inter-Bold.ttf
+  #         weight: 700
